@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: fool-cloud-example
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@127.0.0.1:9526/eureka/eureka/
+    enabled: true
+server:
+  port: 9528
+#security:
+#  basic:
+#    enabled: false
