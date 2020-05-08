@@ -1,6 +1,10 @@
 spring:
   application:
     name: fool-cloud-example
+server:
+  port: 9528
+  servlet:
+    context-path: /example    
 eureka:
   instance:
     prefer-ip-address: true
@@ -8,8 +12,7 @@ eureka:
     serviceUrl:
       defaultZone: http://admin:admin@127.0.0.1:9526/eureka/eureka/
     enabled: true
-server:
-  port: 9528
+
 #security:
 #  basic:
 #    enabled: false
