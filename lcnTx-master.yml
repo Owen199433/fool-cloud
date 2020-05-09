@@ -1,6 +1,8 @@
 server:
   #端口号
   port: 9529
+  servlet:
+    context-path: /lcnTx
 spring:
   application:
     name: fool-cloud-lcn
