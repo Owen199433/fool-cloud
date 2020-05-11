@@ -26,6 +26,12 @@ spring:
   #====================================
   application:
     name: inter-hsp-gateway
+  redis:
+    host:  10.10.10.242
+    #redis端口号
+    port: 6379
+    #redis 密码
+    password:
 eureka:
   instance:
     prefer-ip-address: true
